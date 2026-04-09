@@ -40,7 +40,7 @@ Feel free to explore the individual repos for code, technical details, and lesso
 
 **Clone Statistics (as of today):**
 - v3 (Echo_tmux) – 75 clones
-- v1-v2 (early Python versions) – 85 clones
+- v1-v2 (early rust version) – 85 clones
 - v4 (Python proxy with orchestrator) – lower activity
 - v5 (current Rust hybrid) – newly released, tracking started
 
