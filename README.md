@@ -36,3 +36,22 @@ The latest development is in Rust because it runs significantly faster and gives
 This journey started from a simple desire: build an AI that doesn't just talk about red teaming — it actually helps *do* it.
 
 Feel free to explore the individual repos for code, technical details, and lessons learned along the way.
+### April 9, 2026 – Repository Traction Update
+
+**Clone Statistics (as of today):**
+- v3 (Echo_tmux) – 75 clones
+- v1-v2 (early Python versions) – 85 clones
+- v4 (Python proxy with orchestrator) – lower activity
+- v5 (current Rust hybrid) – newly released, tracking started
+
+**What this tells us:**
+The community shows the strongest interest in the simpler, raw-text focused versions (especially v3 with tmux + marker capture). 
+This validates keeping the design lightweight and avoiding heavy orchestrator/summarizer layers when possible.
+
+**Decision:**
+We will continue treating v5 as the active development branch while leaving older versions public for reference. 
+The high clone count on v3 suggests many users prefer the minimal tmux-based persistent session approach over the more complex proxy designs.
+
+Next focus remains on collecting high-quality SESSION vs COMMAND training examples from the current v5 logs for a targeted LoRA.
+
+Repo remains public and honest about its "in-testing" status.
