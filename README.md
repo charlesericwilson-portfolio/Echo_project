@@ -52,4 +52,6 @@ The v0 portfolio page has 42 unique cloners across all repositories.
 
 Early interest is strongest in the simpler raw-text COMMAND and tmux-based versions. v5 is gaining traction quickly. We will be adding databases to v5 next then going to integrate lessons learned to the v4 python version soon.
 
+Future plans Depth pruning a 32B parameter model to 14-18B to be the new brain behind it all as well as creating MLP routing for a Mixture of Adapters architecture.
+
 Like Cameron Haynes says "Keep Hammering"
