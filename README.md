@@ -6,7 +6,7 @@ This repo serves as the central hub and origin story for all Echo-related projec
 
 I wanted a **local, uncensored, red-team-focused, general use AI** that could actually help me with real pentesting and system tasks — not just talk about them.
 
-So I started with a strong base model (**Qwen 2.5 Coder 14B Instruct**) and fine-tuned it using **LoRA** on a custom dataset.
+So I started with a strong base model ([**Qwen 2.5 Coder 14B Instruct**](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct)) and fine-tuned it using **LoRA** on a custom dataset.
 
 The training data focused heavily on:
 - Step-by-step reasoning and planning
