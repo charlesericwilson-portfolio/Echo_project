@@ -36,22 +36,20 @@ The latest development is in Rust because it runs significantly faster and gives
 This journey started from a simple desire: build an AI that doesn't just talk about red teaming — it actually helps *do* it.
 
 Feel free to explore the individual repos for code, technical details, and lessons learned along the way.
-### April 9, 2026 – Repository Traction Update
 
-**Clone Statistics (as of today):**
-- v3 (Echo_tmux) – 75 clones
-- v1-v2 (early rust version) – 85 clones
-- v4 (Python proxy with orchestrator) – lower activity
-- v5 (current Rust hybrid) – newly released, tracking started
-
-**What this tells us:**
-The community shows the strongest interest in the simpler, raw-text focused versions (especially v3 with tmux + marker capture). 
-This validates keeping the design lightweight and avoiding heavy orchestrator/summarizer layers when possible.
-
-**Decision:**
-We will continue treating v5 as the active development branch while leaving older versions public for reference. 
-The high clone count on v3 suggests many users prefer the minimal tmux-based persistent session approach over the more complex proxy designs.
-
-Next focus remains on collecting high-quality SESSION vs COMMAND training examples from the current v5 logs for a targeted LoRA.
+Next focus remains on collecting high-quality SESSION vs COMMAND training examples from the current v4, v5 logs for a targeted LoRA.
 
 Repo remains public and honest about its "in-testing" status.
+
+### Current Traction (as of April 2026)
+
+- v1-v2 (early Python versions): 184 unique cloners + 3 YouTube refferals
+- v3 (Echo_tmux): 107 unique cloners
+- v4 (Python proxy): 80 unique cloners + 16 YouTube refferals
+- v5 (Rust hybrid proxy): 123 unique cloners + 14 YouTube refferals (in 2 days)
+
+The v0 portfolio page has 42 unique cloners across all repositories.
+
+Early interest is strongest in the simpler raw-text COMMAND and tmux-based versions. v5 is gaining traction quickly. We will be adding databases to v5 next then going to integrate lessons learned to the v4 python version soon.
+
+Like Cameron Haynes says "Keep Hammering"
