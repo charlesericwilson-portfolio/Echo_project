@@ -6,7 +6,7 @@ This repo serves as the central hub and origin story for all Echo-related projec
 
 I wanted a **local, uncensored, red-team-focused, general use AI** that could actually help me with real pentesting and system tasks — not just talk about them.
 
-So I started with a strong base model ([**Qwen 2.5 Coder 14B Instruct**](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct)) and fine-tuned it using [**LoRA**](https://github.com/charlesericwilson-portfolio/Echo_projectv0/blob/main/unsloth_train_gpt.py) on a custom dataset.
+So I started with a strong base model ([**Qwen 2.5 Coder 14B Instruct**](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct)) and fine-tuned it using [**QLoRA**](https://github.com/charlesericwilson-portfolio/Echo_projectv0/blob/main/unsloth_train_gpt.py) on a custom dataset. Check it out here [Echo_training_project](https://github.com/charlesericwilson-portfolio/Echo_training_project)
 
 The training data focused heavily on:
 - Step-by-step reasoning and planning
