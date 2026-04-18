@@ -55,3 +55,5 @@ Early interest is strongest in the simpler raw-text COMMAND and tmux-based versi
 Future plans Depth pruning a 32B parameter model to 14-18B to be the new brain behind it all as well as creating MLP routing for a Mixture of Adapters architecture.
 
 Like Cameron Haynes says "Keep Hammering"
+
+All of this was done with collaboration from Grok by XAI
